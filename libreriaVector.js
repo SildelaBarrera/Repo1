@@ -17,19 +17,6 @@ function crearVector(n, m){
 //2. SumaVector(v1, v2):number[]. Suma dos vectores v1 y v2 si y solo si tienen el mismo 
 //numero de elementos y devuelve el vector resultado de dicha suma.
 
-function sumaVector (v1, v2){
-    let v3 = []
-
-    if(v1.length == v2.length){
-        
-        for (let i=0; i < v1.length; i++){
-            
-            v3[i] = v1[i] + v2[i];
-        }
-    }
-        return v3
-}
-
 
 //3. ProductoNumeroVector(n, v): number[]. Multiplica el vector v por el numero y devuelve
 //el vector resultado de dicho producto.
